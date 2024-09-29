@@ -1,0 +1,40 @@
+{
+  "name": "is-globally-installed",
+  "version": "1.0.0",
+  "description": "Check if this package was installed globally by NPM or Volta",
+  "keywords": [
+    "package",
+    "module",
+    "global",
+    "globally",
+    "install",
+    "installed",
+    "npm",
+    "is",
+    "this",
+    "check",
+    "detect",
+    "determine",
+    "local",
+    "locally"
+  ],
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "files": [
+    "src"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "postinstall": "node src/postinstall.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidinabedi/is-globally-installed.git"
+  },
+  "author": "Aidin Abedi",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aidinabedi/is-globally-installed/issues"
+  },
+  "homepage": "https://github.com/aidinabedi/is-globally-installed"
+}
